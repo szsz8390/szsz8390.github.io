@@ -1,0 +1,38 @@
+env:
+  browser: true
+  es2021: true
+extends:
+  - "eslint:recommended"
+  - "plugin:vue/vue3-recommended"
+  - "@vue/typescript/recommended"
+parserOptions:
+  ecmaVersion: 12
+plugins:
+  - vue
+  - "@typescript-eslint"
+globals:
+  "NodeJS": true
+rules:
+  "indent":
+    - "warn"
+    - 2
+  "semi":
+    - "warn"
+    - "always"
+  "no-unused-vars":
+    - "off"
+    - argsIgnorePattern: "^_"
+  "vue/no-unused-vars":
+    - "warn"
+    - ignorePattern: "^_"
+  "vue/singleline-html-element-content-newline":
+    - "off"
+  "@typescript-eslint/no-unused-vars":
+    - "warn"
+    - argsIgnorePattern: "^_"
+  "vue/max-attributes-per-line":
+    - "warn"
+    - singleline:
+        max: 5
+      multiline:
+        max: 1
