@@ -16,7 +16,7 @@ const props = defineProps<{
 <style scoped lang="scss">
 div {
   padding: 8px;
-  background-color: #ded;
+  background-color: #ffa726;
 }
 h2 {
   margin: 0;

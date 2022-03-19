@@ -9,8 +9,9 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #dbfdff;
+  background-color: #fff3e0;
   font-family: sans-serif;
+  overflow-y: scroll;
 }
 
 #app {
@@ -21,7 +22,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #263238;
 }
 
 main {
@@ -34,8 +35,8 @@ main {
 }
 
 footer {
-  background-color: #373b3e;
-  color: #fffeec;
+  background-color: #263238;
+  color: #fafafa;
 }
 
 @media (orientation: landscape) {
