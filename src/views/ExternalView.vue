@@ -14,7 +14,7 @@ class ExternalLinkInfo {
 }
 
 const links: ExternalLinkInfo[] = [
-  new ExternalLinkInfo("Static Website", "cherish", " ", "http://www9.plala.or.jp/kazune/"),
+  new ExternalLinkInfo("Static Website", "cherish", " ", "https://pj-cherish.sakura.ne.jp/"),
   new ExternalLinkInfo("Blog", "風鈴堂(仮)", "Hatena Blog", "https://sz8390.hatenablog.com/"),
   new ExternalLinkInfo("個人 Wiki", "すずめも", "Seesaa wiki", "https://sz8390.memo.wiki/"),
   new ExternalLinkInfo("GitHub", "szsz8390", "GitHub", "https://github.com/szsz8390"),
